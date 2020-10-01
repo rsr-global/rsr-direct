@@ -6,6 +6,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
 */
 
+/* External custom fonts */
+@font-face {
+    font-family: 'Graphik';
+    src:    url('https://1024szer768.hu/fonts/Graphik-Regular-Web.eot') format('embedded-opentype'),
+            url('https://1024szer768.hu/fonts/Graphik-Regular-Web.woff2') format('woff2'),
+            url('https://1024szer768.hu/fonts/Graphik-Regular-Web.woff') format('woff');
+}
+
 /* custom properties */
 :root {
   /* background color */  
