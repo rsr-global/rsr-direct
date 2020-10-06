@@ -16,7 +16,7 @@
 
 /* custom properties */
 :root {
-  /* background color */  
+  /* background color */
   --bg-color-primary: #eee;
   /* more colours may come here */
   --bg-color-blue: #2dbecd;
@@ -26,7 +26,7 @@
   --text-color-primary-hover: #999;
   /* more colours may come here */
   --text-color-blue: #2dbecd;
-  
+
   /* button colour */
   --bg-button-primary: #337ab7;
   --bg-buttom-primary-hover: #286090;
@@ -73,7 +73,7 @@ h1 {
     font-weight: 400;
     margin-top: 1rem;
     margin-bottom: 3rem;
-    line-height:1.2;
+    line-height:60px;
 }
 
 
@@ -98,7 +98,7 @@ p {
     margin-bottom: 1rem;
 	line-height: 30px;
 	font-size: 18px;
-	
+
 }
 
 
@@ -372,7 +372,7 @@ a.custom-button {
 .media p {
     font-weight: 400;
     margin: 0px 0 0 0;
-  }  
+  }
 
 .media-row {
     display: flex;
@@ -440,7 +440,7 @@ a.custom-button {
     font-size: 2rem;
     color: var(--text-color-primary);
     font-weight: 400;
-} 
+}
 
 .text-with-big-image .text.col .body p {
     font-size: 1rem;
@@ -556,7 +556,7 @@ footer ul li:before {
     section.hero {
         height: 140px;
     }
-   
+
     .hero h1.headline {
         padding-top: 80px;
         color: #fff;
@@ -604,5 +604,3 @@ footer ul li:before {
     }
 
 }
-
-
