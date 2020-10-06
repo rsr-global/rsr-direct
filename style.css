@@ -17,20 +17,20 @@
 /* custom properties */
 :root {
   /* background color */
-  --bg-color-primary: #eee;
-  /* more colours may come here */
-  --bg-color-blue: #2dbecd;
+  --bg-color-primary: #0F1941;
+  --bg-color-secondary: #6BA5B4;
+  --bg-color-blue: #2175D9;
 
   /* text color */
-  --text-color-primary: #666;
+  --text-color-primary: #FFF;
   --text-color-primary-hover: #999;
-  /* more colours may come here */
-  --text-color-blue: #2dbecd;
+  --text-color-blue: #2175D9;
+  --text-color-darkblue: #0F1941;
+  --text-color-red: #E74536;
 
   /* button colour */
-  --bg-button-primary: #337ab7;
+  --bg-button-primary: #fff;
   --bg-buttom-primary-hover: #286090;
-  /* more colours may come here */
 
 }
 
@@ -102,8 +102,8 @@ h4 {
 p {
     margin-top: 1rem;
     margin-bottom: 1rem;
-	line-height: 30px;
-	font-size: 18px;
+	  line-height: 30px;
+	  font-size: 18px;
 
 }
 
