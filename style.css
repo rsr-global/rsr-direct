@@ -102,6 +102,15 @@ p {
 
 }
 
+.list-border li{
+  border-bottom: 1px solid #D7D7D7;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+ul {
+    list-style-type: none;
+}
 
 /* GRID */
 .row {
@@ -250,16 +259,27 @@ header {
 /* ************ HERO ************* */
 section.hero {
     height: 620px;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
     background: url(images/banner-image-1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-
 }
 
-section.hero2 {
-    background: url(images/banner-image-5.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+/* ************ HERO-CUSTOM-BANNER ************* */
+
+.hero_2_home {
+    background: url(images/banner-image-5.png)!important;
+}
+
+.data{
+    background: url(images/banner-image-2.png)!important;
+}
+
+.data_2{
+    background: url(images/banner-image-3.png)!important;
+}
+
+.data_3{
+    background: url(images/banner-image-6.png)!important;
 }
 
 .hero h1.headline {
@@ -366,6 +386,10 @@ a.custom-button {
 
 .row .card:last-of-type {
     margin-right: 0px;
+}
+
+.col.card.three-column h3{
+  padding-top: 20px;
 }
 
 /* ******** card with background color ********** */
