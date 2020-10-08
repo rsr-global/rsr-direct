@@ -22,7 +22,7 @@
   --bg-color-blue: #2175D9;
 
   /* text color */
-  --text-color-primary: #FFF;
+  --text-color-primary: #0F1941;
   --text-color-primary-hover: #999;
   --text-color-blue: #2175D9;
   --text-color-darkblue: #0F1941;
@@ -77,7 +77,6 @@ h1 {
 
 h2 {
     font-size: 32px;
-    color: var(--text-color-blue);
     font-weight: 400;
     line-height:40px;
 }
@@ -86,7 +85,6 @@ h2 {
 
 h3 {
     font-size: 26px;
-    color: var(--text-color-primary);
     line-height: 30px;
 }
 
@@ -114,6 +112,17 @@ p {
 .col {
     flex: 1;
 }
+
+.col.one-fourth {
+flex-basis: 25%;
+min-width: 360px;
+max-width: 360px
+}
+.col.two-thirds {
+flex-basis: 66%;
+min-width: 360px;
+}
+
 
 /* ******************************************* */
 /* **************** Utilities **************** */
@@ -164,6 +173,10 @@ p {
 }
 .text-blue {
     color: var(--text-color-blue)!important;
+}
+
+.text-primary {
+    color: var(--text-color-primary)!important;
 }
 
 /* background colours */
@@ -241,6 +254,12 @@ section.hero {
     background-size: cover;
     background-repeat: no-repeat;
 
+}
+
+section.hero2 {
+    background: url(images/banner-image-5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .hero h1.headline {
@@ -342,7 +361,7 @@ a.custom-button {
     border: 1px solid rgba(0,0,0,.125);
     margin-bottom: 20px;
     border-radius: 0px;
-    margin-right: 15px;
+    margin-right: 30px;
 }
 
 .row .card:last-of-type {
@@ -366,8 +385,13 @@ a.custom-button {
     padding: 10px;
 }
 
+.card-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
 .card h3 {
-    color: #337ab7;
     font-weight: 400;
 }
 
@@ -473,30 +497,27 @@ a.custom-button {
 /* ***** TEXT WITH BIG IMAGE ***** */
 /* ******************************* */
 .text-with-big-image .text.col {
-    justify-content: center;
-    align-items: center;
     display: flex;
+    padding-right: 40px;
 }
 
 .text-with-big-image .col img {
     max-width: 100%;
 }
 
-.text-with-big-image .text.col .body {
-    padding: 30px;
+
+.text-with-big-image .text.col.one-fourth h3 {
+    color: var(--bg-color-blue);
+    font-weight:normal;
+    margin-top: 5px;
 }
 
-.text-with-big-image .text.col .body h2 {
-    font-size: 2rem;
-    color: var(--text-color-primary);
-    font-weight: 400;
+.text-with-big-image .text.col.two-thirds h2 {
+    color: var(--bg-color-primary);
+    font-weight: normal;
+    margin-top: 0px;
 }
 
-.text-with-big-image .text.col .body p {
-    font-size: 1rem;
-    color: var(--text-color-primary);
-    font-weight: 400;
-}
 
 /* ******************************* */
 /* ******** BLOCKQUOTE *********** */
@@ -535,14 +556,15 @@ blockquote p.role {
 /* ******************************* */
 footer {
     margin-top: 40px;
-    background-color: #333;
+    background-color: #0F1941;
 }
 
 .footer-row {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: left;
-    padding: 40px 30px 20px 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 80px 0px 80px 0px;
+    align-items: center;
 }
 
 .footer-col:first-of-type {
@@ -550,38 +572,31 @@ footer {
     max-width: 230px;
 }
 
-.footer-col {
+.footer-col-social {
     flex: 1;
+    min-width: 250px;
+}
+
+.socials img {
+
+	height: 30px;
+  margin-right: 8px;
+}
+
+
+.footer-col-logo {
     max-width: 150px;
+    min-width: 150px;
+    justify-content: right;
 }
 
-footer img.footer-logo {
-    max-width: 200px;
-    margin-right: 30px;
-}
 
-footer a {
-    color: #fff;
-    text-decoration: none;
+.footer-logo img{
+   height: 20px;
 }
 
 footer a:hover {
     color: #eee;
-}
-
-footer ul {
-    margin-top: 0;
-}
-
-footer ul {
-    list-style-type: none;
-    list-style-position: inside;
-    padding-left: 2rem;
-}
-
-footer ul li:before {
-    content: "\203A";
-    color: #fff;
 }
 
 
@@ -621,7 +636,7 @@ footer ul li:before {
         max-width: 100px;
     }
     .card-container {
-        display: block;
+        display: flex;
     }
 /* ********** JUMBOTRON ************ */
     .jumbotron {
