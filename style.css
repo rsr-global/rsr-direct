@@ -141,7 +141,12 @@ max-width: 360px
 flex-basis: 66%;
 min-width: 360px;
 }
-
+.col.two-thirds img{
+  padding-top: 20px;
+  padding-left: 20px;
+flex-basis: 66%;
+max-width: 700px;
+}
 
 /* ******************************************* */
 /* **************** Utilities **************** */
@@ -421,7 +426,7 @@ a.custom-button {
 
 .two-column li:after {
     content: "\2192";
-    color: #666;
+    color: #2175D9;
 	  padding-right: 20px;
 	  float: right;
 }
