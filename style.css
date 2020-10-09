@@ -377,6 +377,10 @@ a.custom-button {
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+.custom-button.darkpurple{
+      background-color: #0F1941;
+          color: #fff;
+}
 .reverse{
   color: #fff;
   background-color: transparent;
@@ -384,11 +388,22 @@ a.custom-button {
   border-color: #fff;
 }
 
+.reverse.darkpurple{
+    background-color: transparent;
+    color: #0F1941;
+    border-color: #0F1941;
+}
+
 .custom-button:hover {
     color: #fff;
     background-color: transparent;
     border: 1px solid;
     border-color: #fff;
+}
+
+.custom-button.darkpurple:hover{
+      background-color: #fff;
+      color: #0F1941;
 }
 
 .reverse:hover {
