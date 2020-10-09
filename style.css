@@ -321,6 +321,14 @@ section.hero {
     background: url(images/banner-image-10.png)!important;
 }
 
+.finance{
+    background: url(images/banner-image-11.png)!important;
+}
+
+.finance_2{
+    background: url(images/banner-image-12.png)!important;
+}
+
 .hero h1.headline {
     padding-top: 80px;
 	  color: #fff;
