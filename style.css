@@ -313,6 +313,14 @@ section.hero {
     background: url(images/banner-image-8.png)!important;
 }
 
+.industrial{
+    background: url(images/banner-image-9.png)!important;
+}
+
+.industrial_2{
+    background: url(images/banner-image-10.png)!important;
+}
+
 .hero h1.headline {
     padding-top: 80px;
 	  color: #fff;
@@ -436,6 +444,10 @@ a.custom-button {
 
 .col.card.three-column h3{
   padding-top: 20px;
+}
+
+.industrial_2 .container .row {
+  justify-content: flex-end;
 }
 
 /* ******** card with background color ********** */
