@@ -352,6 +352,9 @@ section.hero {
     padding-left: 0px;
 }
 
+.container .card-container{
+  margin-top: 80px;
+}
 /* ******************************* */
 /* ********* JUMBOTRON *********** */
 /* ******************************* */
