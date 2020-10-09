@@ -305,6 +305,14 @@ section.hero {
     background: url(images/banner-image-6.png)!important;
 }
 
+.it{
+    background: url(images/banner-image-7.png)!important;
+}
+
+.it_2{
+    background: url(images/banner-image-8.png)!important;
+}
+
 .hero h1.headline {
     padding-top: 80px;
 	  color: #fff;
