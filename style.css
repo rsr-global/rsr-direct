@@ -208,6 +208,10 @@ max-width: 700px;
     color: black;
 }
 
+.text-red {
+    color: red;
+}
+
 .text-blue {
     color: var(--text-color-blue)!important;
 }
