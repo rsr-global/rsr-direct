@@ -203,6 +203,11 @@ max-width: 700px;
 .text-white {
     color: #fff!important;
 }
+
+.text-black {
+    color: black;
+}
+
 .text-blue {
     color: var(--text-color-blue)!important;
 }
