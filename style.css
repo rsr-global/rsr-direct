@@ -211,6 +211,9 @@ max-width: 700px;
 .text-red {
     color: #E74536!important;
 }
+.text-lightblue {
+    color: #2175D9!important;
+}
 
 .text-blue {
     color: var(--text-color-blue)!important;
