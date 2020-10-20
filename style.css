@@ -89,6 +89,7 @@ h3 {
     line-height: 30px;
     font-weight: lighter;
     letter-spacing: -1;
+    padding-top: 80;
 }
 
 h4 {
@@ -250,6 +251,7 @@ header {
     display: flex;
     flex-wrap: nowrap;
     align-items:center;
+    margin-top: 60px;
 }
 
 .navbar-brand {
