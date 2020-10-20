@@ -275,6 +275,7 @@ header {
 	text-align: right;
 	font-size:15px;
 	margin-right:10px;
+  text-decoration: none;
 }
 
 .navbar-menu a:last-of-type {
