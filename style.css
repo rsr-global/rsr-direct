@@ -301,7 +301,7 @@ header {
 
 /* ************ HERO ************* */
 section.hero {
-    height: 620px;
+  height: auto;
     background-size: cover!important;
     background-repeat: no-repeat!important;
     background: url(images/banner-image-1.png);
@@ -516,7 +516,7 @@ a.custom-button {
 }
 
 .card-body {
-    padding: 10px;
+    padding: 25 10 10 10px;
 }
 
 .card-container {
