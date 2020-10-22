@@ -219,7 +219,9 @@ max-width: 700px;
 .text-black {
     color: black!important;
 }
-
+.text-navyblue{
+  color:#0F1941!important;
+}
 .text-red {
     color: #E74536!important;
 }
