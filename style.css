@@ -298,6 +298,7 @@ header {
     height: 30px;
     margin-left: 0;
     display: inline-block;
+    margin-bottom: 20px;
 }
 /* when svg is used */
 .navbar-brand svg {
