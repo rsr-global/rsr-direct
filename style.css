@@ -125,6 +125,8 @@ p {
   padding-top: 25px;
   margin-top: 30px;
   margin-bottom: 30px;
+  border-radius: 8px;
+
 }
 
 ul {
