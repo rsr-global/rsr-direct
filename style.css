@@ -83,8 +83,9 @@ h2 {
     font-weight: 400;
     line-height:60px;
     letter-spacing: -3px;
-	margin-block-start: 0px;
+  	margin-block-start: 0px;
     margin-block-end: 0px;
+    margin-bottom: 60px;
 }
 
 
@@ -419,7 +420,7 @@ h1.letter-spacing-3 {
 }
 
 .container .card-container{
-  margin-top: 0px;
+  margin-top: 60px;
 }
 /* ******************************* */
 /* ********* JUMBOTRON *********** */
@@ -559,7 +560,7 @@ a.custom-button {
 }
 
 .card-body {
-    padding: 60 10 10 10px;
+    padding: 50 10 10 10px;
 }
 
 .card-container {
