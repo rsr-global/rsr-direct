@@ -360,11 +360,11 @@ section.hero {
 
 
 .gt-hero {
-    background: url(images/gt-illustration.png)!important;
+    
 	height: auto;
     background-size: auto;
     background-repeat: no-repeat!important;
-	background-color: blue;
+	background-color: #0F1941;
 }
 
 
