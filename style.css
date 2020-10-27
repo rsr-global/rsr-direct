@@ -358,6 +358,12 @@ section.hero {
 
 /* ************ HERO-CUSTOM-BANNER ************* */
 
+
+.gt-hero {
+    background: url(images/)!important;
+}
+
+
 .hero_2_home {
     background: url(images/banner-image-5.png)!important;
 }
