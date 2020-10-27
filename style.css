@@ -350,7 +350,7 @@ header {
 
 /* ************ HERO ************* */
 section.hero {
-  height: auto;
+	height: auto;
     background-size: cover!important;
     background-repeat: no-repeat!important;
     background: url(images/banner-image-1.png);
@@ -360,7 +360,11 @@ section.hero {
 
 
 .gt-hero {
-    background: url(images/)!important;
+    background: url(images/gt-illustration.png)!important;
+	height: auto;
+    background-size: auto;
+    background-repeat: no-repeat!important;
+	background-color: blue;
 }
 
 
