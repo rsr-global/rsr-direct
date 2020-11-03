@@ -488,7 +488,7 @@ a.custom-button {
     color: #000;
     text-align: center;
     vertical-align: middle;
-    background-color: var(--bg-button-primary);
+    background-color:#0F1941;
     border: 1px solid transparent;
     padding: 15px 30px;
     margin-right: 20px;
