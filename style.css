@@ -555,6 +555,13 @@ a.custom-button {
       color: #0F1941;
 }
 
+.custom-button-white:hover{
+  background-color:#0F1941;
+  border: 1px solid transparent;
+  padding: 15px 30px;
+  color: #fff;
+}
+
 .reverse:hover {
     color: #000;
     background-color: var(--bg-button-primary);
