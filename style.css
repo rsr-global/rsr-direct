@@ -343,6 +343,15 @@ header {
     flex: 1;
     position: relative;
 }
+.navbar-brand-banner {
+    display: inline-block;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: 0px;
+    white-space: nowrap;
+    flex: 1;
+    position: relative;
+}
 
 .nav-border {
   border-bottom: 1px solid #fff;
@@ -357,6 +366,7 @@ header {
 	margin-right:10px;
   text-decoration: none;
 }
+
 
 .navbar-menu a:last-of-type {
 	margin-right:0px;
