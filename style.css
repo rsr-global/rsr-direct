@@ -212,6 +212,9 @@ max-width: 700px;
 .mb-0 {
     margin-bottom: 0!important;
 }
+.mb-60 {
+  margin-bottom: 60px;
+}
 
 .mt-0 {
     margin-top: 0;
@@ -224,6 +227,7 @@ max-width: 700px;
 .mb-30 {
     margin-bottom: 30px;
 }
+
 
 .mb-60 {
     margin-bottom: 60px;
@@ -253,6 +257,10 @@ max-width: 700px;
     padding-top: 20px;
 }
 
+.pr-130 {
+  padding-right: 130px;
+}
+
 .padding-80 {
 	padding-bottom: 80px;
 	padding-top: 80px;
@@ -272,6 +280,9 @@ max-width: 700px;
     color: #fff!important;
 }
 
+.text-color-blue2 {
+  color: #6BA5B4;
+}
 .text-black {
     color: black!important;
 }
