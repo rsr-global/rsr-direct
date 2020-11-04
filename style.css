@@ -392,6 +392,13 @@ section.hero {
     background-repeat: no-repeat!important;
     background: url(images/banner-image-1.png);
 }
+section.hero-content {
+    background-size: 442px 228px!important;
+    background-repeat: no-repeat!important;
+    background-image: url(images/arrow-dots.png);
+    background-position:left bottom;
+}
+
 
 /* ************ HERO-CUSTOM-BANNER ************* */
 
@@ -648,6 +655,9 @@ a.custom-button {
 .card-container {
     display: flex;
     flex-wrap: nowrap;
+}
+.bg-primary {
+    background-color: var(--bg-color-primary)!important;
 }
 
 
