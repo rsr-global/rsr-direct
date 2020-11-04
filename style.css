@@ -594,10 +594,10 @@ a.custom-button {
     border-color: #0F1941;
 }
 
-.reverse.darkpurple:hover{
+.custom-button.reverse.darkpurple:hover{
     background-color: #0F1941;
     color: #fff;
-    border-color: #0F1941;
+
 }
 .custom-button:hover {
     color: #fff;
