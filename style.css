@@ -85,7 +85,7 @@ h2 {
     letter-spacing: -3px;
   	margin-block-start: 0px;
     margin-block-end: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 
 }
 
@@ -543,6 +543,11 @@ a.custom-button {
     border-color: #0F1941;
 }
 
+.reverse.darkpurple:hover{
+    background-color: #0F1941;
+    color: #fff;
+    border-color: #0F1941;
+}
 .custom-button:hover {
     color: #fff;
     background-color: transparent;
