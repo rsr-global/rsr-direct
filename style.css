@@ -333,6 +333,14 @@ header {
     flex-wrap: nowrap;
     align-items:center;
 }
+.navbar-banner {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items:center;
+    height: 47px;
+}
 
 .navbar-brand {
     display: inline-block;
@@ -358,6 +366,9 @@ header {
   padding-bottom: 25px;
 }
 
+.nav-border-banner {
+  border-bottom: 1px solid #fff;
+}
 .navbar-menu a {
   display: inline-block;
 	color: #fff;
