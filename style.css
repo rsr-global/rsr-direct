@@ -286,6 +286,9 @@ max-width: 700px;
     color: var(--text-color-blue)!important;
 }
 
+.p.text-blue{
+  padding-bottom: 0px;
+}
 .text-primary {
     color: var(--text-color-primary)!important;
 }
