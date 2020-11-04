@@ -133,7 +133,7 @@ p {
 }
 
 a {
-	
+
 text-decoration: none;
 }
 
@@ -211,7 +211,7 @@ max-width: 700px;
 
 /* ******** MARGIN 0 ******** */
 .mb-0 {
-    margin-bottom: 0;
+    margin-bottom: 0!important;
 }
 
 .mt-0 {
