@@ -1,10 +1,5 @@
-/* ******************************************* */
-/* ********** General styling **************** */
-/* ******************************************* */
 
-/* importing fonts
-@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
-*/
+
 
 /* External custom fonts */
 @font-face {
@@ -411,12 +406,12 @@ section.hero {
 	height: auto;
     background-size: cover!important;
     background-repeat: no-repeat!important;
-    background: url(images/banner-image-1.png);
+    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=8633673ffc1390bd38eba2af0d3a07fd0c92e56e&cid=248&type=1);
 }
 section.hero-content {
     background-size: 442px 228px!important;
     background-repeat: no-repeat!important;
-    background-image: url(images/arrow-dots.png);
+    background-image: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=cbecc66689c106c2732b7f95a681fc7eb3f70a1c&cid=248&type=1);
     background-position:left bottom;
 }
 
@@ -433,51 +428,51 @@ section.hero-content {
 
 
 .hero_2_home {
-    background: url(images/banner-image-5.png)!important;
+    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=106b6e1b5fefd39ae35eb91a910d3853ce3a0b4f&cid=248&type=1)!important;
 }
 
 .data{
-    background: url(images/banner-image-2.png)!important;
+    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=8200a32ff26d41014d7f60034019882dcb0dd2e2&cid=248&type=1)!important;
 }
 
 .data_2{
-    background: url(images/banner-image-3.png)!important;
+    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=1c90c805b5fedc42ffb6660922a60a6e49634d95&cid=248&type=1g)!important;
 }
 
 .data_3{
-    background: url(images/banner-image-6.png)!important;
+    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=1c90c805b5fedc42ffb6660922a60a6e49634d95&cid=248&type=1)!important;
 }
 
 .it{
-    background: url(images/banner-image-7.png)!important;
+    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=f840a9183a40b92990677efe47ccb614a1029898&cid=248&type=1)!important;
 }
 
 .it_2{
-    background: url(images/banner-image-8.png)!important;
+    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=9e4e9c33d17142261deb24ee62811d40ed88baea&cid=248&type=1)!important;
 }
 
 .industrial{
-    background: url(images/banner-image-9.png)!important;
+    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=2bcdca65e15820d78053cbaf876b4b021116416c&cid=248&type=1)!important;
 }
 
 .industrial_2{
-    background: url(images/banner-image-10.png)!important;
+    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=1c45a722258c2aa68a93dc5bcd230a1737ca0650&cid=248&type=1g)!important;
 }
 
 .finance{
-    background: url(images/banner-image-11.png)!important;
+    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=7ac33c4416e6f6b5c6a9b6a9922d8fd2dda2f612&cid=248&type=1)!important;
 }
 
 .finance_2{
-    background: url(images/banner-image-12.png)!important;
+    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=f61853e4190dcb30ec32a100ef7166d86a7d966b&cid=248&type=1)!important;
 }
 
 .prod-management{
-    background: url(images/banner-image-13.png)!important;
+    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=0a8ca1b8826b3dcf51bb84ba2af2669a208c0a01&cid=248&type=1)!important;
 }
 
 .prod-management_2{
-    background: url(images/banner-image-14.png)!important;
+    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=3ee92338d10be239e5ac521aa789535b73beb2bb&cid=248&type=1)!important;
 }
 .hero h1.headline {
 	color: #fff;
@@ -897,7 +892,7 @@ footer a:hover {
 
 /* ********* HERO IMAGE ********** */
     body {
-        background-image: url(images/banner-image-1.png);
+        background-image: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=8633673ffc1390bd38eba2af0d3a07fd0c92e56e&cid=248&type=1);
         background-repeat: no-repeat;
     }
     .container  {
