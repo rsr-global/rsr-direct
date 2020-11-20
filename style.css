@@ -31,10 +31,21 @@
 
 /* sets Gr8P container width to auto
 /* to allow full width elements */
-.portal-container {
+.portal-region.portal-region-dynamic, .portal-region.portal-region-form, .portal-region.portal-region-list {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.portal-container-columns {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+*:not(.portal-container-columns) > .portal-container {
     width: auto;
 }
 
+.portal-region-form li {
+  font-size: 12px;
+}
 /* makes scrolling smooth */
 html {
     scroll-behavior: smooth;
