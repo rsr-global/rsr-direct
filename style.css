@@ -925,12 +925,12 @@ footer a:hover {
       margin-left: 0px;
     }
 /* ************* HERO ************* */
-<<<<<<< Updated upstream
-section.hero {
-    background-image: none;
-    background: #0F1941;
-}
-=======
+
+    section.hero {
+        background-image: none;
+        background: #0F1941;
+    }
+
     section.hero {
         height: 140px;
         background: #CC1F27;
@@ -957,7 +957,6 @@ section.hero {
       letter-spacing: -1px;
     }
 
->>>>>>> Stashed changes
 /* *********** MEDIA ************* */
     .media-row {
         display: block;
@@ -1031,6 +1030,12 @@ section.hero {
     /* ******** hide on mobiée * ********** */
     .hide-mobile {
       display: none;
+    }
+
+    /* ******* GR8P styling ********** */
+    .portal-container-columns {
+      padding-right: 15px;
+      padding-left: 15px;
     }
 
 
