@@ -417,7 +417,6 @@ section.hero {
 	height: auto;
     background-size: cover!important;
     background-repeat: no-repeat!important;
-    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=8633673ffc1390bd38eba2af0d3a07fd0c92e56e&cid=248&type=1);
 }
 section.hero-content {
     background-size: 442px 228px!important;
@@ -437,6 +436,9 @@ section.hero-content {
 	background-color: #0F1941;
 }
 
+.hero_1_home {
+        background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=8633673ffc1390bd38eba2af0d3a07fd0c92e56e&cid=248&type=1)!important;
+}
 
 .hero_2_home {
     background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=106b6e1b5fefd39ae35eb91a910d3853ce3a0b4f&cid=248&type=1)!important;
@@ -902,10 +904,9 @@ footer a:hover {
 @media (max-width: 767px) {
 
 /* ********* HERO IMAGE ********** */
-    body {
-        background-image: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=8633673ffc1390bd38eba2af0d3a07fd0c92e56e&cid=248&type=1);
-        background-repeat: no-repeat;
-    }
+body {
+    background-image: none;
+}
     .container  {
         padding-right: 15px;
         padding-left: 15px;
@@ -914,10 +915,10 @@ footer a:hover {
         font-size: 1.5rem;
     }
 /* ************* HERO ************* */
-    section.hero {
-        height: 140px;
-    }
-
+section.hero {
+    background-image: none;
+    background: #0F1941;
+}
 /* *********** MEDIA ************* */
     .media-row {
         display: block;
