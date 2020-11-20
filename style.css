@@ -904,12 +904,6 @@ footer a:hover {
 @media (max-width: 767px) {
 
 /* ********* HERO IMAGE ********** */
-<<<<<<< Updated upstream
-body {
-    background-image: none;
-}
-=======
->>>>>>> Stashed changes
     .container  {
         padding-right: 15px;
         padding-left: 15px;
