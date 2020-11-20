@@ -113,8 +113,8 @@ h3 {
 	}
 
 .col.one-fourth h4 {
-	margin-top: 0px;
-    margin-bottom: 0px;
+	 margin-top: 0px;
+    margin-bottom: 20px;
 	}
 
 .card-body h3 {
@@ -904,21 +904,66 @@ footer a:hover {
 @media (max-width: 767px) {
 
 /* ********* HERO IMAGE ********** */
+<<<<<<< Updated upstream
 body {
     background-image: none;
 }
+=======
+>>>>>>> Stashed changes
     .container  {
         padding-right: 15px;
         padding-left: 15px;
     }
     h2 {
-        font-size: 1.5rem;
+      font-size: 34px;
+      line-height: 45px;
+      letter-spacing: -1px;
+    }
+
+/* ************* NAV ************* */
+    .navbar {
+      padding: 15px 0;
+    }
+    .navbar-menu a {
+      font-size: 18px;
+}
+    .navbar-menu a:last-of-type {
+      margin-left: 0px;
     }
 /* ************* HERO ************* */
+<<<<<<< Updated upstream
 section.hero {
     background-image: none;
     background: #0F1941;
 }
+=======
+    section.hero {
+        height: 140px;
+        background: #CC1F27;
+        height: auto;
+    }
+
+    .hero .container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .hero .container .padding-80 {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    .hero .container .media-col-2 {
+      flex-basis: 100%;
+    }
+
+    .hero h1.headline {
+      font-size: 40px;
+      line-height: 50px;
+      letter-spacing: -1px;
+    }
+
+>>>>>>> Stashed changes
 /* *********** MEDIA ************* */
     .media-row {
         display: block;
@@ -933,7 +978,19 @@ section.hero {
         max-width: 100px;
     }
     .card-container {
-        display: flex;
+        display: block;
+    }
+    .card {
+      margin-right: 0px;
+    }
+
+    .card-body {
+      padding: 15px 0px 15px 0px;
+    }
+
+    .card-body p {
+      margin-top: 15px;
+      margin-bottom: 15px;
     }
 /* ********** JUMBOTRON ************ */
     .jumbotron {
@@ -945,11 +1002,12 @@ section.hero {
     }
      /* ********** logo ************* */
     .navbar-brand img {
-        height: 30px;
+        height: 20px;
     }
     /* ******* TEXT WITH BIG IMAGE ****** */
     section.text-with-big-image .container {
-        padding: 0;
+        padding-right: 15px;
+        padding-left: 15px;
     }
     .text-with-big-image .row {
         display: block;
@@ -957,5 +1015,29 @@ section.hero {
     .text-with-big-image img {
         width: 100%;
     }
+
+    .text-with-big-image .text.col {
+      display: block;
+      padding-right: 0px; 
+    }
+
+    /* ************ custom button *** */
+    .custom-button, .custom-button-white {
+      padding: 10px 20px;
+    }
+
+    /* ************ footer ****** */
+    .footer-row {
+      display: block;
+    }
+    .footer-col .socials {
+      margin-bottom: 15px;
+    }
+
+    /* ******** hide on mobiée * ********** */
+    .hide-mobile {
+      display: none;
+    }
+
 
 }
