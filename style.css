@@ -46,6 +46,53 @@
 .portal-region-form li {
   font-size: 12px;
 }
+
+.portal-region-form h3 {
+    font-family: Verdana!important;
+    margin-bottom: 0px;
+    text-transform: none;
+    font-size: 20px;
+}
+
+section.job-aside-item {
+    margin: 0 0 20px 0;
+}
+
+section.job-posting {
+    margin: 0px;
+}
+
+section.job-posting h1.job-title {
+    font-family: Arial;
+    font-size: 30px;
+    margin: 10px 0;
+    line-height: 30px;
+}
+
+section.job-posting p{
+    font-family: Arial;
+    font-size:15px;
+    color: #000;
+    line-height: 20px;
+}
+
+section.job-posting ul{
+    list-style-type: disc;
+}
+
+section.job-posting h3.job-locations, section.job-aside-item h3 {
+    font-family: Arial;
+    font-size:18px;
+    color: #000;
+    text-transform: none;
+    margin-bottom: 10px;
+}
+
+section.job-aside-item p {
+    font-family: Arial;
+    font-size: 16px;
+}
+
 /* makes scrolling smooth */
 html {
     scroll-behavior: smooth;
