@@ -381,7 +381,7 @@ header {
 
 .navbar {
     padding-top: 17.5px!important;
-    padding-bottom: 17.5px!important;
+    padding-bottom: 12.5px!important;
     display: flex;
     flex-wrap: nowrap;
     align-items:center;
@@ -452,6 +452,7 @@ header {
     height: 30px;
     margin-left: 0;
     display: inline-block;
+    margin-top: 10px;
 }
 /* when svg is used */
 .navbar-brand svg {
@@ -479,60 +480,60 @@ section.hero-content {
 .gt-hero {
 
     background-size: auto;
-    background-repeat: no-repeat!important;
+    background-repeat: no-repeat;
 	background-color: #0F1941;
 }
 
 .hero_1_home {
-        background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=8633673ffc1390bd38eba2af0d3a07fd0c92e56e&cid=248&type=1)!important;
+        background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=8633673ffc1390bd38eba2af0d3a07fd0c92e56e&cid=248&type=1);
 }
 
 .hero_2_home {
-    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=106b6e1b5fefd39ae35eb91a910d3853ce3a0b4f&cid=248&type=1)!important;
+    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=106b6e1b5fefd39ae35eb91a910d3853ce3a0b4f&cid=248&type=1);
 }
 
 .data{
-    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=8200a32ff26d41014d7f60034019882dcb0dd2e2&cid=248&type=1)!important;
+    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=8200a32ff26d41014d7f60034019882dcb0dd2e2&cid=248&type=1);
 }
 
 .data_2{
-    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=1c90c805b5fedc42ffb6660922a60a6e49634d95&cid=248&type=1)!important;
+    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=1c90c805b5fedc42ffb6660922a60a6e49634d95&cid=248&type=1);
 }
 
 .data_3{
-    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=4925952af1aeb149d7036a05a4ba5f885e69e9ab&cid=248&type=1)!important;
+    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=4925952af1aeb149d7036a05a4ba5f885e69e9ab&cid=248&type=1);
 }
 
 .it{
-    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=f840a9183a40b92990677efe47ccb614a1029898&cid=248&type=1)!important;
+    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=f840a9183a40b92990677efe47ccb614a1029898&cid=248&type=1);
 }
 
 .it_2{
-    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=9e4e9c33d17142261deb24ee62811d40ed88baea&cid=248&type=1)!important;
+    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=9e4e9c33d17142261deb24ee62811d40ed88baea&cid=248&type=1);
 }
 
 .industrial{
-    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=2bcdca65e15820d78053cbaf876b4b021116416c&cid=248&type=1)!important;
+    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=2bcdca65e15820d78053cbaf876b4b021116416c&cid=248&type=1);
 }
 
 .industrial_2{
-    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=1c45a722258c2aa68a93dc5bcd230a1737ca0650&cid=248&type=1)!important;
+    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=1c45a722258c2aa68a93dc5bcd230a1737ca0650&cid=248&type=1);
 }
 
 .finance{
-    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=7ac33c4416e6f6b5c6a9b6a9922d8fd2dda2f612&cid=248&type=1)!important;
+    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=7ac33c4416e6f6b5c6a9b6a9922d8fd2dda2f612&cid=248&type=1);
 }
 
 .finance_2{
-    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=f61853e4190dcb30ec32a100ef7166d86a7d966b&cid=248&type=1)!important;
+    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=f61853e4190dcb30ec32a100ef7166d86a7d966b&cid=248&type=1);
 }
 
 .prod-management{
-    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=0a8ca1b8826b3dcf51bb84ba2af2669a208c0a01&cid=248&type=1)!important;
+    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=0a8ca1b8826b3dcf51bb84ba2af2669a208c0a01&cid=248&type=1);
 }
 
 .prod-management_2{
-    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=3ee92338d10be239e5ac521aa789535b73beb2bb&cid=248&type=1)!important;
+    background: url(https://randstaddirect.gr8people.com/index.gp?method=cappservices.getPublicImage&cdn=3ee92338d10be239e5ac521aa789535b73beb2bb&cid=248&type=1);
 }
 .hero h1.headline {
 	color: #fff;
@@ -950,7 +951,11 @@ footer a:hover {
 /* ******************************* */
 @media (max-width: 767px) {
 
-/* ********* HERO IMAGE ********** */
+/* ********* General ********** */
+    section {
+      margin: 50px 0px 50px 0px;
+    }
+
     .container  {
         padding-right: 15px;
         padding-left: 15px;
@@ -959,6 +964,23 @@ footer a:hover {
       font-size: 34px;
       line-height: 45px;
       letter-spacing: -1px;
+    }
+
+    .row, .row.list-border {
+      display: block;
+    }
+
+    .row.list-border ul {
+      margin: 0px;
+    }
+
+    .row.list-border li {
+      padding-bottom: 10px;
+      padding-top: 10px;
+    }
+
+    .row.list-border .card {
+      margin-top: 0px;
     }
 
 /* ************* NAV ************* */
@@ -974,24 +996,73 @@ footer a:hover {
 /* ************* HERO ************* */
 
     section.hero {
-        background-image: none;
-        background: #0F1941;
-    }
-
-    section.hero {
-        height: 140px;
         background: #CC1F27;
         height: auto;
     }
 
+    section.hero.industrial {
+        background-image: none;
+        background: #13A2C3;
+    }
+
+    section.hero.industrial_2 {
+        background-image: none;
+        background: #F5D310;
+    }
+
+    section.hero.data_3 {
+        background-image: none;
+        background: #05C4D3;
+    }
+
+    section.hero.prod-management {
+        background-image: none;
+        background: #0C8BB9;
+    }
+
+    section.hero.prod-management_2 {
+        background-image: none;
+        background: #0D6EA7;
+    }
+
+    section.hero.data {
+        background-image: none;
+        background: #2C74DB;
+    }
+
+    section.hero.data_2 {
+        background-image: none;
+        background: #F6B414;
+    }
+
+    section.hero.finance {
+        background-image: none;
+        background: #0867A4;
+    }
+    
+    section.hero.finance_2 {
+        background-image: none;
+        background: #F5D310;
+    }    
+
+    section.hero.it {
+        background-image: none;
+        background: #21B0CD;
+    } 
+
+    section.hero.it_2 {
+        background-image: none;
+        background: #B8ECEE;
+    } 
+ 
     .hero .container {
       padding-left: 15px;
       padding-right: 15px;
     }
 
     .hero .container .padding-80 {
-      padding-top: 20px;
-      padding-bottom: 20px;
+      padding-top: 40px;
+      padding-bottom: 40px;
     }
 
     .hero .container .media-col-2 {
@@ -1022,6 +1093,7 @@ footer a:hover {
     }
     .card {
       margin-right: 0px;
+      margin-top: 20px;
     }
 
     .card-body {
@@ -1083,6 +1155,17 @@ footer a:hover {
     .portal-container-columns {
       padding-right: 15px;
       padding-left: 15px;
+    }
+
+    /* ******** LIST **** */
+    .list-background li {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-right: 0px;
+    }
+
+    .list-background li a {
+       font-size: 22px;
     }
 
 
