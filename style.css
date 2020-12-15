@@ -14,7 +14,7 @@
   /* background color */
   --bg-color-primary: #0F1941;
   --bg-color-secondary: #6BA5B4;
-  --bg-color-blue: #2175D9;
+  --bg-color-blue: #2175D9;=
 
   /* text color */
   --text-color-primary: #0F1941;
@@ -446,6 +446,7 @@ header {
 .justify-center {
   justify-content: center;
 }
+
 
 /* ********** logo ************* */
 .navbar-brand img {
@@ -1039,22 +1040,22 @@ footer a:hover {
         background-image: none;
         background: #0867A4;
     }
-    
+
     section.hero.finance_2 {
         background-image: none;
         background: #F5D310;
-    }    
+    }
 
     section.hero.it {
         background-image: none;
         background: #21B0CD;
-    } 
+    }
 
     section.hero.it_2 {
         background-image: none;
         background: #B8ECEE;
-    } 
- 
+    }
+
     .hero .container {
       padding-left: 15px;
       padding-right: 15px;
@@ -1130,7 +1131,7 @@ footer a:hover {
 
     .text-with-big-image .text.col {
       display: block;
-      padding-right: 0px; 
+      padding-right: 0px;
     }
 
     /* ************ custom button *** */
