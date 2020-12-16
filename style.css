@@ -231,7 +231,7 @@ ul {
 
 .col.one-fourth {
 flex-basis: 25%;
-min-width: 360px;
+min-width: 320px;
 max-width: 360px
 }
 .col.two-thirds {
@@ -557,6 +557,11 @@ h1.letter-spacing-3 {
 .hero .container {
     padding-right: 0px;
     padding-left: 0px;
+}
+
+.hero .subheadline {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 
@@ -1171,7 +1176,7 @@ footer a:hover {
     }
 
     .list-background li a {
-       font-size: 22px;
+       font-size: 18px;
     }
 
 
